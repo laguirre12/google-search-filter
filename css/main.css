@@ -1,0 +1,12 @@
+input[type='checkbox'] {
+  margin-right: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  float: right;
+  margin-right: 50px;
+}

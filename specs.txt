@@ -1,0 +1,12 @@
+-extension that excludes certain websites/domains from search results
+  - Many results of a google search may be irrelevant and people may wish
+    to exclude a domain entirely based on personal preference. (ex: exclude
+    all facebook results). A user can create a list of domains that they want
+    to exclude from search results (upto a specified time interval) and edit
+    this list (add, remove, clear, etc.) After conducting a normal google
+    search, results from domains in the list will be filtered, and users may
+    have the option to view filtered results.
+  - Target Audience:
+
+  - On the options page there is a list of domains/hosts that will be
+  filtered from search results.

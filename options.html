@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Google Search Filter Options</title>
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Title and welcome -->
+    <div class="jumbotron">
+      <h1>Google Search Filter</h1>
+      <p>Easily Filter Websites From your Google Searches.</p>
+    </div>
+
+    <!-- Body Section-->
+    <div>
+
+      <!-- Div for filtered websites -->
+      <div>
+        <h2>Websites Currently Being Filtered</h2>
+        <ul id="filtered-sites">
+        </ul>
+      </div><!-- row for filtered websites -->
+
+      <!-- section for adding new filter item -->
+      <div>
+        <h2>Add A Website by Domain Name</h2>
+          <div id="domain-div">
+            <span id="add-domain">
+              <button type="button">+</button>
+            </span>
+            <input type="text" id="domain-input" placeholder="website" aria-describedby="add-domain">
+          </div>
+
+          <h2>Add a Website by Url</h2>
+          <div>
+            <span class="input-group-btn" id="add-url">
+              <button class="btn btn-primary" type="button">+</button>
+            </span>
+            <input type="text" id="url-input" placeholder="https://www.domain.com/ex" aria-describedby="add-url">
+          </div>
+      </div>
+
+      <script src="js/jquery-3.2.1.min.js"></script>
+      <script src="js/options.js"></script>
+  </body>
+</html>
