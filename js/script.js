@@ -13,7 +13,9 @@
  *    temp.hostname; // => "example.com"
  */
 
-removeFilteredLinks();
+$(document).ready(() => {
+  removeFilteredLinks();
+});
 
 
 /**

@@ -10,3 +10,14 @@ img {
   float: right;
   margin-right: 50px;
 }
+
+#add-to-filters {
+  padding-right: 5px;
+  margin-right: 8px;
+  font-size: 1.3em;
+}
+
+#popup-div {
+  width: 200px;
+  font-size: 1.3em;
+}
