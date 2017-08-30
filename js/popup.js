@@ -29,7 +29,9 @@ function addCurrentTabToFilters() {
       // save and update sites
       sites.activeSites = active;
       sites.inactiveSites = inactive;
-      chrome.storage.sync.set({'filteredSites' : sites }, callback);
+      chrome.storage.sync.set({'filteredSites' : sites }, () => {
+        callback(domain);
+      });
     });
   }
 
@@ -38,9 +40,14 @@ function addCurrentTabToFilters() {
   const queryInfo = { 'active' : true };
   chrome.tabs.query(queryInfo, tabs => {
     if (tabs.length > 0) {
-      addToFilters(tabs[0].url.toLowerCase(), () => {
-        console.log("successfully saved");
-      });
+      addToFilters(tabs[0].url.toLowerCase(), updatePopupSuccesText);
     }
   });
+}
+
+/**
+ * Updates the text on the popup signaling success of addition.
+ */
+function updatePopupSuccesText(domain) {
+  $('#add-text').text(domain + ' successfully added to filtered sites!');
 }

@@ -53,8 +53,9 @@ function removeFilteredSearchResults(searchResults, filteredSites) {
   searchResults.forEach(result => {
     for (let i = 0; i < filteredSites.length; i++) {
       if (matchesDomain(result.href, filteredSites[i])) {
-        $(result).parents('.rc').remove();
-        $(result).parents('.sld').remove();
+        $(result).parents('.g').fadeOut(1200, function() {
+          $(this).remove();
+        });
       }
     }
   });
