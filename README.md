@@ -6,10 +6,10 @@ TODO:
 
 ## Examples
 Add website domain through the options section, or with by using the browser popup.
-![alt text] (images/readme/adding.png)
+![alt text] (images/demo/adding.png)
 
 #### Before And After:
-![alt text] (images/readme/before_and_after.png)
+![alt text] (images/demo/before_and_after.png)
 
 
 ## Technologies Used
