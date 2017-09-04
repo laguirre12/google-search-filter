@@ -6,10 +6,10 @@ TODO:
 
 ## Examples
 Add website domain through the options section, or with by using the browser popup.
-![Adding an element to filters] (images/demo/adding.png)
+![Adding an element to filters] (/images/demo/adding.png)
 
 #### Before And After:
-![Wikipedia Result filtered from search Results] (images/demo/before_and_after.png)
+![Wikipedia Result filtered from search Results] (/images/demo/before_and_after.png)
 
 
 ## Technologies Used
