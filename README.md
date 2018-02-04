@@ -17,6 +17,7 @@ For example, Wikipedia could be filtered from search results by adding Wikipedia
 * Chrome Storage API
 * Chrome Tabs API
 * JQuery
+* HTML/CSS
 
 ## Install
 
@@ -26,6 +27,3 @@ For example, Wikipedia could be filtered from search results by adding Wikipedia
 * Enable developer mode at top right.
 * Click 'Load unpacked extension...' and select the unzipped folder.
 * Search with Google
-
-### Chrome Web Store
-**_Coming Soon??_**
